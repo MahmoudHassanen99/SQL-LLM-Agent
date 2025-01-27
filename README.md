@@ -2,6 +2,20 @@
 
 SQL-LLM-Agent is a natural language interface for querying SQL databases. It leverages LLM's (OpenAI, gpt-35-turbo-instruct) powerful language model to convert plain English questions into SQL queries and fetch data from an Azure SQL database. This app provides a seamless interface for non-technical users to interact with complex databases without writing any SQL code.
 
+---
+
+## Table of Contents
+
+- [Architecture Overview](#architecture-overview)  
+- [Features](#features)  
+- [Tech Stack](#tech-stack)
+- [Streamlit App](#streamlit-app)  
+- [Screenshots](#screenshots)
+- [Future Enhancements](#future-enhancements)  
+
+
+---
+  
 ## **Architecture Overview**
 
 ![ss](https://github.com/user-attachments/assets/687ce2ce-4136-4274-adb8-3041a7a67eb7)
@@ -20,7 +34,9 @@ SQL-LLM-Agent is a natural language interface for querying SQL databases. It lev
 - **Seamless SQL Generation**: Automatically generates SQL queries optimized for Azure SQL databases.
 - **Scalable Integration**: Built with Flask middleware to handle complex requests and database operations.
 - **Interactive UI**: Easy-to-use Streamlit interface for real-time interaction.
+- **Modify SQL Query Before Execution**: Allows users to review and edit the generated SQL query by LLM before Excuting it, ensuring flexibility and control.
 
+  
 ## **Tech Stack**
 
 - **Front-End**: Streamlit
@@ -29,6 +45,9 @@ SQL-LLM-Agent is a natural language interface for querying SQL databases. It lev
 - **Database**: Azure SQL Database (Data Warehouse)
 - **Hosting**: Azure Cloud
 
+## **Streamlit App**
+
+## **Screenshots**
 
 ## **Future Enhancements**
 - Add support for more databases (PostgreSQL, MySQL, etc.).
@@ -36,15 +55,4 @@ SQL-LLM-Agent is a natural language interface for querying SQL databases. It lev
 - Implement caching for faster query responses.
 - Enable local LLMs like Mistral-7B-Instruct-v0.3 for privacy.
 
-## **Setup and Installation**
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/natural-language-sql-app.git
-   cd natural-language-sql-app
-
-2. **Install Dependencies**
-
-   Install the required Python packages using pip:
-   ```bash
-      pip install -r requirements.txt
