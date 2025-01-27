@@ -1,6 +1,6 @@
-# SQL-LLM-Agent (Natural Language to SQL Query App)
+# SQL-LLM-Agent
 
-This project is a natural language-driven application that allows non-technical users to interact with SQL databases. By using OpenAI's language models and integrating with Azure SQL Database, the system translates plain language questions into SQL queries and retrieves data in a user-friendly format.
+SQL-LLM-Agent is a natural language interface for querying SQL databases. It leverages LLM's (OpenAI, gpt-35-turbo-instruct) powerful language model to convert plain English questions into SQL queries and fetch data from an Azure SQL database. This app provides a seamless interface for non-technical users to interact with complex databases without writing any SQL code.
 
 ## **Architecture Overview**
 
@@ -29,9 +29,22 @@ This project is a natural language-driven application that allows non-technical 
 - **Database**: Azure SQL Database (Data Warehouse)
 - **Hosting**: Azure Cloud
 
+
+## **Future Enhancements**
+- Add support for more databases (PostgreSQL, MySQL, etc.).
+- Integrate advanced visualization tools for richer insights.
+- Implement caching for faster query responses.
+- Enable local LLMs like Mistral-7B-Instruct-v0.3 for privacy.
+
 ## **Setup and Installation**
 
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/your-username/natural-language-sql-app.git
    cd natural-language-sql-app
+
+2. **Install Dependencies**
+
+   Install the required Python packages using pip:
+   ```bash
+      pip install -r requirements.txt
