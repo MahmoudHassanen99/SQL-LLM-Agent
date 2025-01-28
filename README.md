@@ -9,6 +9,7 @@ SQL-LLM-Agent is a natural language interface for querying SQL databases. It lev
 - [Architecture Overview](#architecture-overview)  
 - [Features](#features)  
 - [Tech Stack](#tech-stack)
+- [Data Warehouse Schema](#data-warehouse-schema)
 - [Streamlit App](#streamlit-app)  
 - [Screenshots](#screenshots)
 - [Future Enhancements](#future-enhancements)  
@@ -49,13 +50,35 @@ SQL-LLM-Agent is a natural language interface for querying SQL databases. It lev
 
 ---
 
+# **Data Warehouse Schema**
+![schema](https://github.com/user-attachments/assets/ff313a72-25a9-4cb7-af4d-1fbbb264a284)
 
-## **Streamlit App**
+
+Tables:
+- Sales_Fact: sales_id, product_id, customer_id, time_id, quantity_sold, total_amount
+- Products_Dim: product_id, product_name, category, price
+- Customers_Dim: customer_id, customer_name, region, country
+- Time_Dim: time_id, date, month, quarter, year
+
+Relationships:
+- Sales_Fact.product_id -> Products_Dim.product_id
+- Sales_Fact.customer_id -> Customers_Dim.customer_id
+- Sales_Fact.time_id -> Time_Dim.time_id
 
 ---
 
 ## **Screenshots**
+# 1-
+![1](https://github.com/user-attachments/assets/753a8650-34c2-4a69-89a3-49203bb40abe)
 
+# 2-
+![2](https://github.com/user-attachments/assets/18f09d7f-801f-464a-9480-673951066dd9)
+
+---
+
+## **Streamlit App**
+  - You can try the Streamlit App (hosted on Huggingface Space) from this below link:
+      - https://mhassanen-sql-llm-agent.hf.space/
 ---
 
 ## **Future Enhancements**
