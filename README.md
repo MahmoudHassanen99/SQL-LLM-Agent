@@ -18,7 +18,8 @@ SQL-LLM-Agent is a natural language interface for querying SQL databases. It lev
 
 ## **Architecture Overview**
 
-![ss](https://github.com/user-attachments/assets/687ce2ce-4136-4274-adb8-3041a7a67eb7)
+![arch](https://github.com/user-attachments/assets/b9fcd8e6-8810-4565-b3f9-258f49db553e)
+
 
 
 1. **User Input**: Non-technical users submit queries in plain language through a Streamlit web interface.
