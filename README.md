@@ -75,11 +75,7 @@ Relationships:
 # 2-
 ![2](https://github.com/user-attachments/assets/18f09d7f-801f-464a-9480-673951066dd9)
 
----
 
-## **Streamlit App**
-  - You can try the Streamlit App (hosted on Huggingface Space) from this below link:
-      - https://mhassanen-sql-llm-agent.hf.space/
 ---
 
 ## **Future Enhancements**
