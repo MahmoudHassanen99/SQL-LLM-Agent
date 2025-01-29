@@ -80,6 +80,7 @@ Relationships:
 
 ## **Future Enhancements**
 - Add support for more databases (PostgreSQL, MySQL, etc.).
+- Dockerize the Backend App to easy deploy on Instance.
 - Integrate advanced visualization tools for richer insights.
 - Implement caching for faster query responses.
 - Enable local LLMs like Mistral-7B-Instruct-v0.3 for privacy.
