@@ -6,12 +6,11 @@ SQL-LLM-Agent is a natural language interface for querying SQL databases. It lev
 
 ## Table of Contents
 
-- [Architecture Overview](#architecture-overview)  
+- [Architecture Overview](#architecture-overview)
+- [Screen Recording](#screen-recording)
 - [Features](#features)  
 - [Tech Stack](#tech-stack)
 - [Data Warehouse Schema](#data-warehouse-schema)
-- [Streamlit App](#streamlit-app)  
-- [Screenshots](#screenshots)
 - [Future Enhancements](#future-enhancements)  
 
 ---
@@ -28,6 +27,12 @@ SQL-LLM-Agent is a natural language interface for querying SQL databases. It lev
 4. **OpenAI Integration**: Converts the natural language query into an SQL query.
 5. **Azure SQL Database**: Executes the generated SQL query and returns the results.
 6. **Response Handling**: Results are sent back to the Streamlit front-end for display.
+
+---
+## **Screen Recording**
+
+
+https://github.com/user-attachments/assets/79c3c09a-ad59-48b6-863b-19752a42cbc5
 
 ---
 
@@ -65,15 +70,6 @@ Relationships:
 - Sales_Fact.product_id -> Products_Dim.product_id
 - Sales_Fact.customer_id -> Customers_Dim.customer_id
 - Sales_Fact.time_id -> Time_Dim.time_id
-
----
-
-## **Screenshots**
-# 1-
-![1](https://github.com/user-attachments/assets/753a8650-34c2-4a69-89a3-49203bb40abe)
-
-# 2-
-![2](https://github.com/user-attachments/assets/18f09d7f-801f-464a-9480-673951066dd9)
 
 
 ---
