@@ -75,7 +75,7 @@ Relationships:
 ---
 
 ## **Future Enhancements**
-- Add support for more databases (PostgreSQL, MySQL, etc.).
+- Automatic Database Selection: Using SQLAlchemy introspection/ Data Catalog(Datahub, Amundsen) to detect connected databases and route queries based on schema matching
 - Dockerize the Backend App to easy deploy on Instance.
 - Integrate advanced visualization tools for richer insights.
 - Implement caching for faster query responses.
